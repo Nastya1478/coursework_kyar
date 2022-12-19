@@ -1,0 +1,221 @@
+.main-section {
+    padding: 9.5vh 15.9% 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-section__illustration {
+    width: 49%;
+}
+.main-section__text {
+    margin: 16px 0px 21px;
+    width: 80%;
+}
+.main-section__button {
+    width: 36%;
+    padding: 21px 10px;
+    background: #7963CD;
+    border-radius: 39px;
+    border: 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.main-section__button_reverse {
+    margin-left: 16px;
+    background: #FCF8FF;
+    border: 2px solid #FFBC58;
+    color: #291651;
+}
+.main-section__button_reverse:hover {
+    background-color: #f1eaf6;
+}
+.main-section__button_reverse:active {
+    background: #bcafc6;
+}
+
+
+
+.plus {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 150px 15.9%;
+}
+.plus__item {
+    background-color: #7963CD;
+    width: 32.2%;
+    height: 243px;
+    border-radius: 28px;
+    padding: 30px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.plus__item_padding {
+    padding: 30px 60px;
+}
+.plus__heading {
+    color: #ECECEC;
+    margin-bottom: 12px;
+}
+.plus__text {
+    color: #ECECEC;
+}
+
+
+
+
+.teacher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 15.9%;
+}
+
+.teacher__menu {
+    display: flex;
+    overflow: scroll;
+}
+.teacher__menu::-webkit-scrollbar {
+    height: 0;
+}
+.teacher__menu li {
+    margin: 23px 52px 22px;
+    font-size: 17px;
+    padding-bottom: 7px;
+    
+}
+.active {
+    border-bottom: 1px solid #DAA133;
+}
+#math, #engl, #physic {
+    display: none;
+}
+.teacher .card {
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 9px 16px rgba(69, 44, 168, 0.15);
+    border-radius: 23px;
+    background-color: #FEFEFF;
+    padding: 30px 36px;
+    width: 100%;
+}
+.card_margin {
+    margin-bottom: 30px;
+}
+.card__container {
+    margin-left: 57px;
+}
+.card__heading {
+    font-size: 17px;
+}
+.card__text {
+    margin: 1px 0px 9px;
+    width: 80%;
+}
+.card__image {
+    width: 17.7%;
+}
+
+
+
+.courses {
+    margin: 150px 15.9%;
+    
+}
+.courses__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 28px;
+}
+.courses__menu {
+    display: flex;
+}
+.courses__menu li {
+    margin-left: 50px;
+    font-size: 17px;
+    padding-bottom: 7px;
+    /* border-bottom: 1px solid #DAA133; */
+}
+
+.focus {
+    border-bottom: 1px solid #DAA133;
+}
+#indiv, #group {
+    display: none;
+}
+.courses__cards {
+    display: flex;
+    overflow: scroll;
+    padding-bottom: 30px;
+}
+.courses__cards::-webkit-scrollbar {
+    height: 5px;
+    width: 0;
+}
+.courses__cards::-webkit-scrollbar-track {
+    background: white;
+}
+.courses__cards::-webkit-scrollbar-thumb {
+    background-color: #7963CD;
+    border-radius: 20px;
+}
+.courses .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 340px;
+    width: 32.1%;
+    padding: 55px 51px 53px;
+    background-color: #fff;
+    box-shadow: 0px 9px 16px rgba(69, 44, 168, 0.1);
+    border-radius: 23px;
+    margin-right: 20px;
+}
+
+.courses .card__heading {
+    font-size: 22px;
+}
+.card__first-text {
+    text-align: center;
+    margin: 14px 0px 10px;
+    line-height: 139.19%;
+}
+.card__price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.card__main-price {
+    font-size: 47px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.card__sale {
+    color: #CFA24B;
+    text-decoration: line-through;
+}
+.card__about {
+    display: flex;
+    flex-direction: column;
+
+}
+.card__about span {
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+.card__button {
+    width: 90%;
+    padding: 19px 10px;
+    background: #7963CD;
+    border-radius: 39px;
+    border: 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}

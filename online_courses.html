@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/online_courses.css">
+    <link rel="stylesheet" href="./css/media/style_media.css">
+    <link rel="stylesheet" href="./css/media/online_courses_media.css">
+    <title>Онлайн-курсы</title>
+</head>
+<body>
+    <div class="sidenav" id="Sidenav">
+        <a href="#" class="close-btn" onclick="closeNav()"><img src="./img/header_all/close.svg" alt="кнопка закрыть меню"></a>
+        <a href="./index.html" target="_blank">Главная</a>
+        <a href="./courses.html" target="_blank">Курсы</a>
+        <a href="./online_courses.html" target="_blank">Онлайн-курсы</a>
+        <a href="./results.html" target="_blank">Результаты</a>
+        <a href="./question_answer.html" target="_blank">Вопрос-ответ</a>
+    </div>
+    <header class="header" >
+        <img class="header__image" src="./img/header_all/logo.svg" alt="логотип сайта по подготовке к ЦТ">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a href="./index.html" target="_blank">Главная</a></li>
+                <li class="header__item"><a href="./courses.html" target="_blank">Курсы</a></li>
+                <li class="header__item"><a href="./online_courses.html" target="_blank">Онлайн-курсы</a></li>
+                <li class="header__item"><a href="./results.html" target="_blank">Результаты</a></li>
+                <li class="header__item"><a href="./question_answer.html" target="_blank">Вопрос-ответ</a></li>
+                <li class="header__item"><a href="#" class="icon" onclick="openNav()"><img src="./img/header_all/menu.svg" alt="menu"></a></li>
+            </ul>
+        </nav>
+        <div class="header__for-icon">
+            <img class="header__icon header__icon_first " src="./img/header_all/mail_icon.svg" alt="иконка почты">
+            <img class="header__icon header__icon_second" src="./img/header_all/phone_icon.svg" alt="иконка телефона">
+        </div>
+    </header>
+    <div class="main-section">
+        <img class="main-section__illustration" src="./img/online_courses/first_illustration.svg" alt="illustration">
+        <section class="main-section__title">
+            <h1 class="main-section__heading">Онлайн-курсы по подготовке к ЦТ</h1>
+            <p class="main-section__text">Мы дадим вас все нужные знания и укрепим их практикой, чтобы вы с легкостью сдали экзамен. Все наши выпускники идут на централизованное тестирование без какого-либо волнения, что помогает им набрать очень большой балл по предмету который изучали.</p>
+            <button class="main-section__button">Запись</button>
+        </section>
+    </div>
+    <div class="section-plus">
+        <h2 class="section-plus__heading">Почему дистанционные занятия лучше?</h2>
+        <p class="section-plus__text">Интенсивный практико-ориентированный процесс заполняет пробелы знаний, помогает справиться с трудными моментами правописания, пунктуации.</p>
+        <div class="plus">
+            <div class="plus__item">
+                <img class="plus__voice" src="./img/online_courses/voise_icon.svg" alt="icon">
+                <p>Общение с твоим личным репетитором в реальном времени</p>
+            </div>
+            <div class="plus__item">
+                <img class="plus__lesson" src="./img/online_courses/lesson_icon.svg" alt="icon">
+                <p>Поддержка 24/7 – возникающие трудности решаются оперативно</p>
+            </div>
+            <div class="plus__item">
+                <img class="plus__document" src="./img/online_courses/document_icon.svg" alt="icon">
+                <p>Мы очень подробно разбираем возникающие вопросы из части А и В</p>
+            </div>
+        </div>
+    </div>
+    <div class="about-online-school">
+        <h2 class="about-online-school__heading">Как проходит онлайн-обучение?</h2>
+        <p class="about-online-school__text">4 основных принципа обучения в нашей школе</p>
+        <div class="about-online-school__section">
+            <div class="card">
+                <p class="card__text card__text_width">Занятия проходят онлайн в любое удобное время. Каждый из уроков сохраняется в записях и можно будет многократно пройти его, если вы что-то забыли.</p>
+            </div>
+            <div class="card">
+                <p class="card__text">Закрепление приобретенных навыков домашними заданиями и итоговыми тестами. Постоянное взаимодействие с преподавателями, они уделят внимание каждому учащемуся.</p>
+            </div>
+            <div class="card">
+                <p class="card__text">Разнообразная и увлекательная учеба — это про нас. Поэтому «100ЦТ» проводит ЦТ-марафон, однодневный курс подготовки и другие полезные мероприятия об образовании и профессиях.</p>
+            </div>
+            <div class="card">
+                <p class="card__text">Эффективное обучение под контролем – проводится мониторинг, объективная оценка усвоения тем, на занятиях подробно рассматриваются тесты для подготовки к ЦТ.</p>
+            </div>
+        </div>
+    </div>
+    <div class="courses">
+        <section class="courses__container">
+            <h2>Стоимость онлайн-курсов</h2>
+            <span class="courses__text">Запись на 2022\2023 учебный год. Успей записаться со скидкой до 1 августа</span>
+            <ul class="courses__menu">
+                <li onclick="openPage('indiv', this)" class="courses__item cours-btn focus">Индивидуальные</li>
+                <li onclick="openPage('group', this)" class="courses__item cours-btn courses__item_margin">Групповые</li>
+            </ul>
+        </section>
+        <div id="indiv" class="courses__cards courses__indiv courses__page">
+            <div class="card">
+                <h3 class="card__heading">Русский</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+            <div class="card">
+                <h3 class="card__heading">Математика</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+            <div class="card">
+                <h3 class="card__heading">Английский</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+            <div class="card">
+                <h3 class="card__heading">Физика</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+        </div>
+
+
+        <div id="group" class="courses__cards courses__group courses__page">
+            <div class="card">
+                <h3 class="card__heading">gусский</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+            <div class="card">
+                <h3 class="card__heading">Математика</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+            <div class="card">
+                <h3 class="card__heading">Английский</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+            <div class="card">
+                <h3 class="card__heading">Физика</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+        </div>
+
+    </div><div class="sale">
+        <h2 class="sale__heading">Заполните форму и получите скидку в 10%</h2>
+        <p class="sale__text">Мы будем рады помочь вам стать ближе к своей мечте, подготовиться к ЦТ и поступить в выбранный вуз.</p>
+        <form action="#" class="sale__form">
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Номер телефона">
+            <input type="email" placeholder="Email">
+            <input class="sale__submit" type="submit" value="Получить скидку">
+        </form>
+        <p class="sale__sub-text">*Отправляя персональные данные, вы принимаете политику конфиденциальности.</p>
+    </div>
+    <footer class="footer">
+        <div class="footer__section">
+            <div class="footer__messanger">
+                <a href="https://www.instagram.com/" target="_blank"><img src="./img/footer_all/instagram_icon.svg" alt="иконка социальной сети Instagram"></a>
+                <a href="https://web.telegram.org/k/" target="_blank"><img src="./img/footer_all/telegram_icon.svg" alt="иконка мессенджера Telegram"></a>
+                <a href="https://ru-ru.facebook.com/" target="_blank"><img class="footer__facebook" src="./img/footer_all/facebook_icon.svg" alt="иконка социальной сети Facebook"></a>
+            </div>
+            <div class="footer__phone-mail">
+                <div class="footer__group footer__group_margin">
+                    <img src="./img/footer_all/phone_icon.svg" alt="иконка телефона">
+                    <span>+375 (29) 566- 22 -60</span>
+                </div>
+                <div class="footer__group">
+                    <img src="./img/footer_all/mail_icon.svg" alt="иконка почты">
+                    <span>infoeasyct@mail.ru</span>
+                </div>
+            </div>
+        </div>   
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>

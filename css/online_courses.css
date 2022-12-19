@@ -1,0 +1,207 @@
+.main-section {
+    padding: 15.5vh 15.9% 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-section__illustration {
+    width: 49%;
+}
+.main-section__title {
+    margin-left: 108px;
+}
+.main-section__text {
+    margin: 7px 0px 18px;
+}
+.main-section__button {
+    width: 51.5%;
+    padding: 17px 10px;
+    background: #7963CD;
+    border-radius: 39px;
+    border: 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+.section-plus {
+    margin: 150px 15.9%;
+}
+.section-plus__text {
+    margin: 10px 0px 48px;
+}
+.plus {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+}
+.plus__item {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    min-width: 176px;
+}
+.plus__item p {
+    width: auto;
+    margin-left: 20px;
+}
+.plus__voice {
+    width: 18%;
+}
+.plus__lesson {
+    width: 20%;
+}
+.plus__document {
+    width: 13%;
+}
+
+
+.about-online-school {
+    margin: 0px 15.9%;
+}
+.about-online-school__text {
+    margin: 14px 0px 30px;
+}
+.about-online-school__section {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.about-online-school .card {
+    box-shadow: 0px 0px 18px rgba(69, 44, 168, 0.24);
+    border-radius: 24px;
+    background-color: #fff;
+    width: 49%;
+    min-width: 370px;
+    height: 32vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__text {
+    width: 79%;
+    font-size: 17px;
+}
+.card__text_width {
+    width: 76%;   
+}
+
+
+
+
+
+.courses {
+    margin: 150px 15.9%;
+}
+.courses__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 33px;
+    width: 100%;
+}
+.courses__container h2 {
+    text-align: center;
+}
+.courses__text {
+    margin: 15px 0px 30px;
+    font-size: 14px;
+    text-align: center;
+}
+.courses__menu {
+    display: flex;
+}
+.courses__item {
+    font-size: 17px;
+    padding-bottom: 7px;
+    /* border-bottom: 1px solid #DAA133; */
+}
+.focus {
+    border-bottom: 1px solid #DAA133;
+}
+#indiv, #group {
+    display: none;
+}
+.courses__item_margin {
+    margin-left: 65px;
+}
+.courses__cards {
+    display: flex;
+    overflow: scroll;
+    padding: 0px 20px 30px;
+
+}
+.courses__cards::-webkit-scrollbar {
+    height: 5px;
+    width: 0;
+    margin-top: 50px;
+}
+  
+.courses__cards::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+}
+  
+.courses__cards::-webkit-scrollbar-thumb {
+    background-color: #7963CD;
+    border-radius: 20px;
+}
+.courses .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32.1%;
+    min-width: 340px;
+    padding: 55px 51px 53px;
+    background-color: #fff;
+    box-shadow: 0px 9px 16px rgba(69, 44, 168, 0.1);
+    border-radius: 23px;
+    margin-right: 20px;
+}
+.card__heading {
+    font-size: 22px;
+}
+.card__first-text {
+    text-align: center;
+    margin: 14px 0px;
+    line-height: 139.19%;
+}
+.card__price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.card__main-price {
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.card__sale {
+    color: #CFA24B;
+    text-decoration: line-through;
+}
+.card__about {
+    display: flex;
+    flex-direction: column;
+
+}
+.card__about span {
+    margin: 10px 0px;
+    font-size: 14px;
+}
+.card__button {
+    width: 90%;
+    padding: 19px 10px;
+    background: #7963CD;
+    border-radius: 39px;
+    border: 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 28px;
+}

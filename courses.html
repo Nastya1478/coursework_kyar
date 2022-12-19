@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon.png" type="image/png">
+    <link rel="stylesheet" href="./css/courses.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media/style_media.css">
+    <link rel="stylesheet" href="./css/media/courses_media.css">
+    <title>Курсы</title>
+</head>
+<body>
+    <div class="sidenav" id="Sidenav">
+        <a href="#" class="close-btn" onclick="closeNav()"><img src="./img/header_all/close.svg" alt="кнопка закрыть меню"></a>
+        <a href="./index.html" target="_blank">Главная</a>
+        <a href="./courses.html" target="_blank">Курсы</a>
+        <a href="./online_courses.html" target="_blank">Онлайн-курсы</a>
+        <a href="./results.html" target="_blank">Результаты</a>
+        <a href="./question_answer.html" target="_blank">Вопрос-ответ</a>
+    </div>
+    <header class="header" >
+        <img class="header__image" src="./img/header_all/logo.svg" alt="логотип сайта по подготовке к ЦТ">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a href="./index.html" target="_blank">Главная</a></li>
+                <li class="header__item"><a href="./courses.html" target="_blank">Курсы</a></li>
+                <li class="header__item"><a href="./online_courses.html" target="_blank">Онлайн-курсы</a></li>
+                <li class="header__item"><a href="./results.html" target="_blank">Результаты</a></li>
+                <li class="header__item"><a href="./question_answer.html" target="_blank">Вопрос-ответ</a></li>
+                <li class="header__item"><a href="#" class="icon" onclick="openNav()"><img src="./img/header_all/menu.svg" alt="menu"></a></li>
+            </ul>
+        </nav>
+        <div class="header__for-icon">
+            <img class="header__icon header__icon_first " src="./img/header_all/mail_icon.svg" alt="иконка почты">
+            <img class="header__icon header__icon_second" src="./img/header_all/phone_icon.svg" alt="иконка телефона">
+        </div>
+    </header>
+    <div class="main-section">
+        <section class="main-section__title">
+            <h1 class="main-section__heading">Курсы для подготовки к ЦТ</h1>
+            <p class="main-section__text">Мы дадим вас все нужные знания и укрепим их практикой, чтобы вы с легкостью сдали экзамен</p>
+            <button class="main-section__button">Запись</button>
+            <button class="main-section__button main-section__button_reverse">Подробнее</button>
+        </section>
+        <img class="main-section__illustration" src="./img/courses/first_illustration.svg" alt="illustration">
+    </div>
+    <div class="plus">
+        <div class="plus__item">
+            <section>
+                <h3 class="plus__heading">Время обучения</h3>
+                <p class="plus__text">Для получения высокого балла на тестировании важно изучать выбранный курс не менее года.
+                    Занятия обычно проводятся два раза в неделю, по два часа.</p>
+            </section>
+        </div>
+        <div class="plus__item">
+            <section>
+                <h3 class="plus__heading">Комфортная обстановка</h3>
+                <p class="plus__text">Занятия проводятся в комфортных условиях в удобное время. Позитивная атмосфера и персональный подход к каждому слушателю облегчают изучение предмета.</p>
+            </section>
+        </div>
+        <div class="plus__item plus__item_padding">
+            <section>
+                <h3 class="plus__heading">Поддержка</h3>
+                <p class="plus__text">Если вы занимаетесь отдельно с репетитором, вашей поддержкой будет он. Если учитесь в группах — помогут и ученики и репетитор.</p>
+            </section>
+        </div>
+    </div>
+    <div class="teacher">
+        <h2 class="teacher__heading">Наши преподаватели</h2>
+        <ul class="teacher__menu">
+            <li onclick="openPage('russian', this)" class="page-btn active">Русский</li>
+            <li onclick="openPage('math', this)" class="page-btn">Математика</li>
+            <li onclick="openPage('engl', this)" class="page-btn">Английский</li>
+            <li onclick="openPage('physic', this)" class="page-btn">Физика</li>
+        </ul>
+        <div id="russian" class="teacher__russian teacher__page">
+            <div class="card card_margin">
+                <img class="card__image" src="./img/courses/first_teacher.jpg" alt="teacher">
+                <div class="card__container">
+                    <h4 class="card__heading">Болотова Наталья Владимировна</h4>
+                    <p class="card__text">Окончила филологический факультет БГУ. Опыт преподавания — 31 год. Лауреат республиканского конкурса «Лучший учитель словесности зарубежья-2016»</p>
+                    <p>Лучший результат ученика на ЦТ: 100 баллов</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./img/courses/second_teacher.jpg" alt="teacher">
+                <div class="card__container">
+                    <h4 class="card__heading">Василевская Татьяна Михайловна</h4>
+                    <p class="card__text">Окончила филологический факультет БГУ. Опыт преподавания – 11 лет. Магистр педагогических наук, автор учебных программ по русскому языку.</p>
+                    <p>Лучший результат ученика на ЦТ: 100 баллов</p>
+                </div>
+            </div>
+        </div>
+        <div id="math" class="teacher__math teacher__page">
+            <div class="card card_margin">
+                <img class="card__image" src="./img/courses/first_teacher.jpg" alt="teacher">
+                <div class="card__container">
+                    <h4 class="card__heading">Контукевич Наталья Владимировна</h4>
+                    <p class="card__text">Окончила филологический факультет БГУ. Опыт преподавания — 31 год. Лауреат республиканского конкурса «Лучший учитель словесности зарубежья-2016»</p>
+                    <p>Лучший результат ученика на ЦТ: 100 баллов</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./img/courses/second_teacher.jpg" alt="teacher">
+                <div class="card__container">
+                    <h4 class="card__heading">Василевская Татьяна Михайловна</h4>
+                    <p class="card__text">Окончила филологический факультет БГУ. Опыт преподавания – 11 лет. Магистр педагогических наук, автор учебных программ по русскому языку.</p>
+                    <p>Лучший результат ученика на ЦТ: 100 баллов</p>
+                </div>
+            </div>
+        </div>
+        <div id="engl" class="teacher__engl teacher__page">
+            <div class="card card_margin">
+                <img class="card__image" src="./img/courses/first_teacher.jpg" alt="teacher">
+                <div class="card__container">
+                    <h4 class="card__heading">Тусович Наталья Владимировна</h4>
+                    <p class="card__text">Окончила филологический факультет БГУ. Опыт преподавания — 31 год. Лауреат республиканского конкурса «Лучший учитель словесности зарубежья-2016»</p>
+                    <p>Лучший результат ученика на ЦТ: 100 баллов</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./img/courses/second_teacher.jpg" alt="teacher">
+                <div class="card__container">
+                    <h4 class="card__heading">Василевская Татьяна Михайловна</h4>
+                    <p class="card__text">Окончила филологический факультет БГУ. Опыт преподавания – 11 лет. Магистр педагогических наук, автор учебных программ по русскому языку.</p>
+                    <p>Лучший результат ученика на ЦТ: 100 баллов</p>
+                </div>
+            </div>
+        </div>
+        <div id="physic" class="teacher__physic teacher__page">
+            <div class="card card_margin">
+                <img class="card__image" src="./img/courses/first_teacher.jpg" alt="teacher">
+                <div class="card__container">
+                    <h4 class="card__heading">Роколова Наталья Владимировна</h4>
+                    <p class="card__text">Окончила филологический факультет БГУ. Опыт преподавания — 31 год. Лауреат республиканского конкурса «Лучший учитель словесности зарубежья-2016»</p>
+                    <p>Лучший результат ученика на ЦТ: 100 баллов</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./img/courses/second_teacher.jpg" alt="teacher">
+                <div class="card__container">
+                    <h4 class="card__heading">Василевская Татьяна Михайловна</h4>
+                    <p class="card__text">Окончила филологический факультет БГУ. Опыт преподавания – 11 лет. Магистр педагогических наук, автор учебных программ по русскому языку.</p>
+                    <p>Лучший результат ученика на ЦТ: 100 баллов</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="courses">
+        <div class="courses__container">
+            <h2>Курсы</h2>
+            <ul class="courses__menu">
+                <li onclick="openPage('indiv', this)" class="courses__item cours-btn focus">Индивидуальные</li>
+                <li onclick="openPage('group', this)" class="courses__item cours-btn">Групповые</li>
+            </ul>
+        </div>
+        <div id="indiv" class="courses__cards courses__indiv courses__page">
+            <div class="card">
+                <h3 class="card__heading">Русский</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+            <div class="card">
+                <h3 class="card__heading">Математика</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+            <div class="card">
+                <h3 class="card__heading">Английский</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+            <div class="card">
+                <h3 class="card__heading">Физика</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+        </div>
+
+        <div id="group" class="courses__cards courses__group courses__page">
+            <div class="card">
+                <h3 class="card__heading">hусский</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+            <div class="card">
+                <h3 class="card__heading">Математика</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+            <div class="card">
+                <h3 class="card__heading">Английский</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+            <div class="card">
+                <h3 class="card__heading">Физика</h3>
+                <p class="card__first-text">Стоимость одного занятия при подготовке одному с репетитором</p>
+                <div class="card__price">
+                    <span class="card__sale">23</span>
+                    <span class="card__main-price">19</span>
+                </div>
+                <div class="card__about">
+                    <span>2 занятия в неделю</span>
+                    <span>1 занятие = 120 минут</span>
+                    <span>+ БЕСПЛАТНОЕ тестирование для определения уровня знаний</span>
+                </div>
+                <button class="card__button">Записаться</button>
+            </div>
+        </div>
+
+    </div>
+    <section class="sale">
+        <h2 class="sale__heading">Заполните форму и получите скидку в 10%</h2>
+        <p class="sale__text">Мы будем рады помочь вам стать ближе к своей мечте, подготовиться к ЦТ и поступить в выбранный вуз.</p>
+        <form action="#" class="sale__form">
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Номер телефона">
+            <input type="email" placeholder="Email">
+            <input class="sale__submit" type="submit" value="Получить скидку">
+        </form>
+        <p class="sale__sub-text">*Отправляя персональные данные, вы принимаете политику конфиденциальности.</p>
+    </section>
+    <footer class="footer">
+        <div class="footer__section">
+            <div class="footer__messanger">
+                <a href="https://www.instagram.com/" target="_blank"><img src="./img/footer_all/instagram_icon.svg" alt="иконка социальной сети Instagram"></a>
+                <a href="https://web.telegram.org/k/" target="_blank"><img src="./img/footer_all/telegram_icon.svg" alt="иконка мессенджера Telegram"></a>
+                <a href="https://ru-ru.facebook.com/" target="_blank"><img class="footer__facebook" src="./img/footer_all/facebook_icon.svg" alt="иконка социальной сети Facebook"></a>
+            </div>
+            <div class="footer__phone-mail">
+                <div class="footer__group footer__group_margin">
+                    <img src="./img/footer_all/phone_icon.svg" alt="иконка телефона">
+                    <span>+375 (29) 566- 22 -60</span>
+                </div>
+                <div class="footer__group">
+                    <img src="./img/footer_all/mail_icon.svg" alt="иконка почты">
+                    <span>infoeasyct@mail.ru</span>
+                </div>
+            </div>
+        </div>   
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/question_answer.css">
+    <link rel="stylesheet" href="./css/media/style_media.css">
+    <link rel="stylesheet" href="./css/media/question_answer_media.css">
+    <title>Вопрос-ответ</title>
+</head>
+<body>
+    <div class="sidenav" id="Sidenav">
+        <a href="#" class="close-btn" onclick="closeNav()"><img src="./img/header_all/close.svg" alt="кнопка закрыть меню"></a>
+        <a href="./index.html" target="_blank">Главная</a>
+        <a href="./courses.html" target="_blank">Курсы</a>
+        <a href="./online_courses.html" target="_blank">Онлайн-курсы</a>
+        <a href="./results.html" target="_blank">Результаты</a>
+        <a href="./question_answer.html" target="_blank">Вопрос-ответ</a>
+    </div>
+    <header class="header" >
+        <img class="header__image" src="./img/header_all/logo.svg" alt="логотип сайта по подготовке к ЦТ">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a href="./index.html" target="_blank">Главная</a></li>
+                <li class="header__item"><a href="./courses.html" target="_blank">Курсы</a></li>
+                <li class="header__item"><a href="./online_courses.html" target="_blank">Онлайн-курсы</a></li>
+                <li class="header__item"><a href="./results.html" target="_blank">Результаты</a></li>
+                <li class="header__item"><a href="./question_answer.html" target="_blank">Вопрос-ответ</a></li>
+                <li class="header__item"><a href="#" class="icon" onclick="openNav()"><img src="./img/header_all/menu.svg" alt="menu"></a></li>
+            </ul>
+        </nav>
+        <div class="header__for-icon">
+            <img class="header__icon header__icon_first " src="./img/header_all/mail_icon.svg" alt="иконка почты">
+            <img class="header__icon header__icon_second" src="./img/header_all/phone_icon.svg" alt="иконка телефона">
+        </div>
+    </header>
+    <div class="main-section">
+        <section class="main-section__title">
+            <h1 class="main-section__heading">Часто задаваемые вопросы</h1>
+            <p class="main-section__text">У многих родителей а также их детей возникаетбольшое количество вопросов, как мы проводим обучение, как мы набираем группы, что изучаем и почему? 
+                <br><br>
+                Мы подготовили для вас ответы на такие часто задаваемые вопросы, после прочтения которых у вас не останется сомнений о нашем профессионализме и качестве получаемых знаний
+                </p>
+            <button class="main-section__button">Задать вопрос</button>
+        </section>
+        <img class="main-section__illustration" src="./img/question_answer/first_illustration.svg" alt="illustration">
+    </div>
+    <div class="questions">
+        <div class="questions__title">
+            <section class="questions__section">
+                <h2 class="questions__heading">Процесс обучения и его подводные камни</h2>
+                <span class="questions__text">Основные вопросы которые задают про процесс обучения</span>
+            </section>
+            <button class="questions__button">Больше вопросов</button>
+        </div>
+        <div class="questions__cards">
+            <div class="card">
+                <h3>Могу ли я прервать курс?</h3>
+                <p>Абитуриент центра имеет право прервать курс обучения в любой момент и приостановить обучение в своей группе. </p>
+            </div>
+            <div class="card">
+                <h3>Мне не нравится преподаватель</h3>
+                <p>Сообщить об этом менеджеру нашего центра. Вам будет предложено обучение в другой группе с другим преподавателем. Мы внимательно относимся ко всем пожеланиям наших учеников.</p>
+            </div>
+            <div class="card">
+                <h3>Почему я должен выполнять ДЗ?</h3>
+                <p>Домашнее задание помогает закрепить пройденный материал. Если вы его не выполняете, ваше обучение будет менее эффективным.</p>
+            </div>
+            <div class="card">
+                <h3>Можно ли менять время занятий?</h3>
+                <p>Можно, если в других группах есть свободные местах. Эту информацию уточняйте у администратора по телефону +375 29 197-70-70.</p>
+            </div>
+        </div>
+    </div>
+    <div class="more-questions">
+        <section class="answer">
+            <h2>Вы обучаете тех, кто набрал на РТ 30-40 баллов?</h2>
+            <p>Да. Наши преподаватели прилагают все усилия, чтобы вы смогли сдать ЦТ выше 70 баллов. Но вы должны выполнять все домашние задания, т.к. только через практику можно закрепить полученные знания. Как результат — хорошие баллы на ЦТ.</p>
+        </section>
+        <section class="answer">
+            <h2>Как можно попасть к вам на курсы?</h2>
+            <p>Если вы только начинаете готовиться к ЦТ, то можете сразу оформляться в одну из предлагаемых групп, позвонив по телефону менеджеру и уточнив необходимый для вас вариант обучения.</p>
+        </section>
+        <section class="answer">
+            <h2>Вы готовите девятиклассников <br> и десятиклассников?</h2>
+            <p>Конечно, у нас есть специальные группы подготовки к ЦТ для 10-х классов, а также подготовительные группы для 9-х классов. Ведь чем раньше школьник начнет подготовку, тем ему будет легче в дальнейшем.</p>
+        </section>
+        <section class="answer answer_none-margin">
+            <h2>Когда начинаются занятия?</h2>
+            <p>Набор в группы осуществляется целый год. У нас есть несколько видов курсов, на которые вы можете записаться: годовые, полугодовые, 3-месячные и однодневный курс за 1 день перед ЦТ.</p>
+        </section>
+    </div>
+    <div class="sale">
+        <h2 class="sale__heading">Заполните форму и получите скидку в 10%</h2>
+        <p class="sale__text">Мы будем рады помочь вам стать ближе к своей мечте, подготовиться к ЦТ и поступить в выбранный вуз.</p>
+        <form action="#" class="sale__form">
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Номер телефона">
+            <input type="email" placeholder="Email">
+            <input class="sale__submit" type="submit" value="Получить скидку">
+        </form>
+        <p class="sale__sub-text">*Отправляя персональные данные, вы принимаете политику конфиденциальности.</p>
+    </div>
+    <footer class="footer">
+        <div class="footer__section">
+            <div class="footer__messanger">
+                <a href="https://www.instagram.com/" target="_blank"><img src="./img/footer_all/instagram_icon.svg" alt="иконка социальной сети Instagram"></a>
+                <a href="https://web.telegram.org/k/" target="_blank"><img src="./img/footer_all/telegram_icon.svg" alt="иконка мессенджера Telegram"></a>
+                <a href="https://ru-ru.facebook.com/" target="_blank"><img class="footer__facebook" src="./img/footer_all/facebook_icon.svg" alt="иконка социальной сети Facebook"></a>
+            </div>
+            <div class="footer__phone-mail">
+                <div class="footer__group footer__group_margin">
+                    <img src="./img/footer_all/phone_icon.svg" alt="иконка телефона">
+                    <span>+375 (29) 566- 22 -60</span>
+                </div>
+                <div class="footer__group">
+                    <img src="./img/footer_all/mail_icon.svg" alt="иконка почты">
+                    <span>infoeasyct@mail.ru</span>
+                </div>
+            </div>
+        </div>   
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>

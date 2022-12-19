@@ -1,0 +1,177 @@
+@media (max-width: 1350px) {
+    .main-section {
+        padding: 9.5vh 10% 0px;
+    }
+    .section-plus {
+        margin: 150px 10%;
+    }
+    .about-online-school {
+        margin: 0px 10%;
+    }
+    .courses {
+        margin: 150px 10%;
+    }
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+    .main-section {
+        padding: 9.5vh 7% 0px;
+    }
+    .main-section__title {
+        margin-left: 40px;
+    }
+    .section-plus {
+        margin: 150px 7%;
+    }
+
+    .plus__voice {
+        width: 18%;
+    }
+    .plus__lesson {
+        width: 20%;
+    }
+    .plus__document {
+        width: 14%;
+    }
+    .plus__item p {
+        margin-left: 15px;
+    }
+    .about-online-school {
+        margin: 0px 7%;
+    }
+    .card__text_width {
+        width: 79%;   
+    }
+    .courses {
+        margin: 150px 7%;
+    }
+    .courses .card {
+        padding: 40px 40px 40px;
+    }
+    .courses .card__heading {
+        font-size: 19px;
+    }
+    .card__about span {
+        margin: 5px 0px;
+        font-size: 12px;
+    }
+    .card__button {
+        margin-top: 15px;
+    } 
+}
+
+
+
+
+
+
+@media (max-width: 870px) {
+    
+    .section-plus {
+        margin: 100px 7%;
+    }
+    .card__text {
+        font-size: 14px;
+    }
+    .about-online-school .card {
+        height: 200px;
+    }
+    .courses {
+        margin: 100px 7%;
+    }
+    .courses .card {
+        min-width: 280px;
+        padding: 30px 30px;
+    }
+    .card__first-text {
+        margin: 8px 0px 10px;
+    }
+    .card__button {
+        margin-top: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 720px) {
+    .main-section__illustration {
+        display: none;
+    }
+    .main-section__title {
+        margin-left: 0;
+    }
+    .main-section__text {
+        margin: 10px 0px 10px;
+    }
+    .main-section__button {
+        width: 40%;
+    }
+    .plus__item {
+        width: 70%;
+    }
+    .plus__voice {
+        width: 12%;
+    }
+    .plus__lesson {
+        width: 13%;
+    }
+    .plus__document {
+        width: 12%;
+    }
+    .plus__item p {
+        margin-left: 20px;
+    }
+    .card__text {
+        font-size: 13px;
+    }
+    .about-online-school .card {
+        height: 240px;
+    }
+    .card_margin {
+        margin-bottom: 8px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 450px) {
+    .main-section__button {
+        width: 55%;
+    }
+    .plus__voice {
+        width: 15%;
+    }
+    .plus__lesson {
+        width: 17%;
+    }
+    .plus__document {
+        width: 15%;
+    }
+    /* .about-online-school__section {
+        flex-direction: column;
+        align-items: center;
+    } */
+    .about-online-school .card {
+        width: 97%;
+        min-width: 200px;
+        height: 180px;
+    }
+    .courses__item {
+        font-size: 14px;
+    }
+    .courses__item_margin {
+        margin-left: 30px;
+    }
+}

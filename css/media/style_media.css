@@ -1,0 +1,247 @@
+@media (max-width:1350px) {
+    h1 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    p, span {
+        font-size: 12px;
+    }
+    
+
+
+    .header {
+        padding: 5.3vh 10% 0px;
+    }
+    .header__image {
+        height: 20px;
+    }
+    .header__list {
+        gap: 35px;
+    }
+    .header__item {
+        /* margin: 0px 15px; */
+        font-size: 12px;
+    }
+    .header__icon_first {
+        height: 20px;
+    }
+    .header__icon_second {
+        height: 23px;
+        margin-left: 18px;
+    }
+
+
+    .sale {
+        margin: 100px 10% 100px;
+    }
+
+
+
+    .footer {
+        height: 400px;
+    }
+    .footer__messanger img{
+        width: 20px;
+        margin-right: 20px;
+    }
+    .footer__facebook {
+        width: 9px !important;
+    }
+    .footer__group img {
+        width: 25px;
+    }
+    .footer__group span {
+        font-size: 17px;
+    }
+    .footer__group_margin {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:1024px) {
+    h1 {
+        font-size: 26px;
+        line-height: 25px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+    p, span {
+        font-size: 12px;
+    }
+    button {
+        font-size: 13px !important;
+    }
+    
+
+
+    .header {
+        padding: 5.3vh 7% 0px;
+    }
+
+
+    .sale {
+        margin: 100px 7% 100px;
+    }
+    .sale__text {
+        margin: 10px 0px 30px;
+    }
+    .sale__form {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sale__form input {
+        width: 50%;
+        padding: 22px 35px;
+    }
+    .sale__submit {
+        font-size: 15px;
+    }
+
+
+
+    .footer {
+        height: 350px;
+        padding: 0px 21.7% 90px;
+    }
+    
+    
+}
+
+
+
+@media (max-width:870px) {
+    h1 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    p, span {
+        font-size: 12px;
+    }
+    
+
+    .header__image {
+        height: 18px;
+    }
+    .header__nav {
+        order: 1;
+    }
+    .header__list a {
+        display: none;
+    }
+    .header__list a.icon {
+        display: flex;
+    }
+    .header__icon {
+        display: none;
+    }
+
+    
+    
+
+    
+    .sale__heading {
+        text-align: center;
+    }
+    .sale__text {
+        width: 70%;
+        margin: 10px 0px 30px;
+    }
+    .sale__form input {
+        width: 65%;
+    }
+    .sale__sub-text {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+
+    .footer {
+        height: 300px;
+        padding: 0px 14% 70px;
+    }
+    .footer__group img {
+        width: 24px;
+    }
+    .footer__group span {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 21px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    p {
+        font-size: 10px; 
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    .header__list {
+        gap: 0;
+    }
+    .header__item {
+        margin: 0;
+    }
+
+    .sale__text {
+        width: 90%;
+    }
+    .sale__form input {
+        width: 80%;
+        font-size: 10px;
+        padding: 20px 30px;
+    }
+
+
+
+    .footer {
+        padding: 0px 14% 50px;
+        height: 250px;
+    }
+    .footer__section {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer__messanger {
+        margin-top: 30px;
+    }
+    .footer__group img {
+        width: 22px;
+    }
+    .footer__group span {
+        font-size: 12px;
+    }
+    .footer__group_margin {
+        margin-bottom: 10px;
+    }
+    .footer__group {
+        justify-content: center;
+    }
+    
+}
+
+
+
